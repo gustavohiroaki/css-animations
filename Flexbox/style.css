@@ -1,0 +1,26 @@
+section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.itembox {
+  height: 300px;
+  width: 300px;
+  padding: 15px;
+  margin: 10px 15px;
+  overflow: scroll;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}

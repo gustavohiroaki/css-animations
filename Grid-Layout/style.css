@@ -1,0 +1,33 @@
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header"
+    "menu main main main right right"
+    "menu footer footer footer footer footer";
+  grid-gap: 3px;
+}
+
+header {
+  grid-area: header;
+  background-color: blue;
+}
+
+aside {
+  grid-area: menu;
+  background-color: red;
+}
+
+main {
+  grid-area: main;
+  background-color: green;
+}
+
+.right {
+  grid-area: right;
+  background-color: pink;
+}
+
+footer {
+  grid-area: footer;
+  background-color: orange;
+}
