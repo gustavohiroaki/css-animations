@@ -1,0 +1,36 @@
+body {
+  width: 100vw;
+  height: 100vh;
+
+  background-color: blue;
+}
+
+/* <header> */
+#top-bar-header {
+  background-color: pink;
+}
+
+#top-bar-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 3vh 3vw;
+}
+
+#top-bar-navigation-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-bar-navigation-list-item:not(:first-child) {
+  margin-left: 3vh;
+}
+
+.top-bar-navigation-list-item a {
+  padding: 1vh 1vw;
+  background-color: purple;
+  border-radius: 5px;
+}
+/* </header> */
