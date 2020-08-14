@@ -34,3 +34,19 @@ body {
   border-radius: 5px;
 }
 /* </header> */
+
+/* <main> */
+main {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  row-gap: 20px;
+}
+.content-box {
+  background-color: aqua;
+  border: 1px solid #ddd;
+  width: 30vw;
+  height: 15vw;
+}
+/* </main> */
